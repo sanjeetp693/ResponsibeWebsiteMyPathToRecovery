@@ -1,0 +1,306 @@
+/* Header contain */
+.bodypart{
+    overflow: hidden;
+}
+.ct1r{
+    margin-top: 20px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.bt1{
+    margin-left: 10px;
+}
+
+/* Banner part */
+.banner{
+  background-image: url(assets/ic_banner.png);
+  background-size: cover;
+  height: 450px;
+  width: 99.90%;
+}
+.bannerimg{
+    margin-top: 20px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+.heading{
+    position: absolute;
+    top: 37%;
+    left: 10%;
+    font-size: 35px; 
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    text-align: justify;
+    color: white;
+  }
+
+  /* button detail */
+  .blue-btn a{
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    display:block; /* important */
+  }
+  
+  .blue-btn, .first-link{
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;     
+  }
+  
+  
+  .blue-btn{
+    position: absolute;
+    height: 60px;
+    font: normal normal 700 1em/4em Arial,sans-serif;
+    overflow: hidden;
+    width: 150px;
+    text-align: center;
+    top: 64%;
+    left: 10%;
+    background-color: #3b5998;
+    border-radius: 20px;
+  }
+  
+  .blue-btn:hover{
+     background-color: #003D60;
+    
+  }
+  
+  .blue-btn a:hover{
+    text-decoration: none;
+  }
+  
+  .first-link{
+    margin-top: 0em;  
+    text-align: center; 
+  }
+  
+  .blue-btn:hover .first-link{
+    margin-top: -4em;
+  }
+
+
+  /* Container3 details */
+   .ct3h4{
+         margin-top: 30px;
+   }
+   .ct3r{
+       padding: 10px 0px 10px 0px;
+   }
+   .ct3img
+   {
+    border: 1px solid rgb(209, 208, 208);
+    box-shadow: 2px 2px 2px #d8d8d8;
+    border-radius: 20px;
+    position: relative;
+   }
+   .ct3img1{
+       position: absolute;
+       top: 25%;
+       left: 40%;
+   }
+   .ct3p{
+    color: gray;
+   }
+   .cl4{
+       text-align: center;
+   }
+   .ictext{
+       position: absolute;
+       top: 59%;
+       left: 32%;
+   }
+
+/* AppDetails */
+.AppDetails{
+    margin-top: 30px;
+    background-color: rgb(235, 232, 232);
+}
+.appcl{
+    text-align: center;
+}
+.apph4{
+    margin-top: 100px; 
+    font-size: 32px;
+}
+.li1{
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 10px;  
+  }
+  .bt2{
+    color: white;
+    background-color: rgb(37, 151, 204);
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 28px;
+  }
+  .appcl2{
+      background-color: white;
+      height: 40px;
+  }
+  .srch2
+{
+  border: none;
+  width: 150px;
+}
+.imgc3{
+    display: flex; 
+    margin-top: 20px; 
+  }
+
+  /* Account Details */
+  .account{
+      background-color: rgb(22, 130, 219);
+      height: 250px;
+  }
+  .acc{
+      text-align: center;
+      justify-items: center;
+      top: 60px;
+      height: 250px;
+  }
+  .p1
+  {
+      color: white;
+      font-size: 23px;
+  }
+  .p2{
+      color: white;
+  }
+
+  /* User Details */
+  .users{
+    background-color: rgb(223, 219, 219);
+    height: 420px;
+  }
+  .hh3{
+    margin-top: 30px;
+    font-size: 23px;
+    margin-left: 40px;
+  }
+  .img6{
+  height: 270px;
+  width: 370px;
+  float: right;
+  }
+  .p4{
+    margin-top: 30px;
+    float: right;
+    margin-right: 80px;
+    color: rgb(42, 138, 202);
+  }
+  .p5{
+     margin-top: 130px;
+     width: 480px;
+     float: left;
+     font-size: 18px;
+     padding: 20px;
+  }
+  .vl {
+    border-left: 4px solid rgb(11, 79, 110);
+    height: 65px;
+    float: left;
+    margin-top: 250px;
+  }
+  .p6{
+    margin-left: 10px;
+  }
+
+  /* Play Image Details */
+  .playimg{
+    height: 350px;
+    width: 100%;
+    position: relative;
+  }
+  .ct6p{
+    position: absolute;
+    color: white;
+    top: 25%;
+    left: 40%;
+    font-size: 25px;
+  }
+  .ct6p1{
+    position: absolute;
+    color: white;
+    top: 35%;
+    left: 30%;
+    font-size: 15px;
+  }
+  .ct6img{
+    position: absolute;
+    top: 50%;
+    left: 47%;
+  }
+
+  /* Service Details */
+  .service{
+    height: 420px;
+  }
+  .ct7h2{
+    padding: 50px 10px 10px 100px;
+  }
+  .ct7p{
+    padding: 10px 10px 10px 100px;
+    color: rgb(109, 108, 108);
+  
+  }
+  .ct7b
+{
+   background-color:rgb(42, 138, 202);
+   border-radius: 5px;
+   border: none;
+   color: white;
+   margin-left: 100px;
+   height: 40px;
+   width: 120px;
+}
+.ct7img{
+  margin-top: 20px;
+  height: 350px;
+  margin-left: 50px;
+  padding: 20px;
+}
+
+/* Rating  */
+.rating{
+  height: 200px;
+  background-color: rgb(211, 209, 209);
+}
+.rat1{
+  font-size: 60px;
+  padding: 1px 10px 1px 300px;
+}
+.rat{
+   padding: 1px 10px 1px 280px;
+}
+.ct9img{
+  padding: 30px 5px 10px 120px;
+}
+.ct9img1{
+  height: 100%;
+  margin-right: 5px;
+}
+.ct9pd{
+  width: 60%;
+  padding: 30px 5px 10px 120px;
+}
+.ct9p{
+  color: gray;
+  font-size: 18px;
+}
+
